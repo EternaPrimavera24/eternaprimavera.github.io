@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>SALON DE EVENTOS</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="imagenes/superior.png" rel="icon" />
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="menu container">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu" />
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Galeria.html">Galeria</a></li>
+                    <li><a href="sobremi.html">Sobre Mí</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+        <h1>Galeria Del Salón</h1>
+        <div class="ful-img" id="fulImgBox">
+            <img src="imagenes/1.jpg" id="fulImg" alt="">
+            <span onclick="closeImg()">X</span>
+        </div>
+
+        <div class="img-gallery">
+            <img src="imagenes/a.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/b.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/c.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/d.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/e.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/f.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/g.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/h.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/i.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/2.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/k.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/l.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/m.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/n.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/o.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/p.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/q.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/r.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/s.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/t.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/u.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/v.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/w.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/x.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/y.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/z.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/a1.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/b1.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/c1.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/d1.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/e1.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/f1.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/g1.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/h1.jpeg" onclick="openFulImg(this.src)" alt="">
+            <img src="imagenes/i1.jpeg" onclick="openFulImg(this.src)" alt="">
+        </div>
+        
+    <h1>VIDEO DEL LOCAL</h1>
+    <div class="video-container">
+        <video controls="controls">
+            <source src="videos/actuacion.mp4" type="video/mp4" />
+        </video>
+
+    </div>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="Galeria.html">
+                        <img src="imagenes/footer.jpg" style="border-radius: 50px; width: 200px; height: 200px ;" alt="Logo del Salón">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>VISITANOS EN:</h2>
+                <p>C. Aguas Potables, a 2 cuadras de la Av. Reducto</p>
+                <p>Num. de Ref. +591 75462750</p>
+            </div>
+            <div class="box">
+                <h2>SÍGUENOS EN NUESTRAS REDES:</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/profile.php?id=100092343522351&locale=es_LA" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/eterna_primavera2023/?hl=es" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>Eterna Primavera</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/718efedaaf.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
